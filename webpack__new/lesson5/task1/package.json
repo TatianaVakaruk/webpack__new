@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack ./src/my-index.js --mode=production",
+    "build": "webpack ./src/my-index.js -p",
     "watch": "webpack ./src/my-index.js --mode=development --devtool eval-source-maps -w"
   },
   "keywords": [],
@@ -11,7 +11,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
   }
 }
